@@ -1,7 +1,4 @@
-# SSTData_TCI_rfablet
-# Python code for the creation of the SST dataset considered in paper rfablet et al., 
-# "Data-driven Models for the Spatio-Temporal Interpolation of satellite-derived SST Fields", IEEE TCI, to appear
-#
-# Creation of cloudy SST dataset with an associated cloud-free groundtruth: 
-#     - "groundtruthed" cloud-free SST dataset: OSTIA time series
-#      - Cloud mask: METOP cloud mask
+# DESCRIPTION
+This Python code is an additional material of the publication "Data-driven Models for the Spatio-Temporal Interpolation of satellite-derived SST Fields", from **R. Fablet, P. Huynh Viet, R. Lguensat**, accepted for publication in *IEEE Transactions on Computational Imaging*.
+This code creates the SST interpolation dataset considered in the above paper. It creates a cloudy SST dataset using OSTIA SST data as groundtruthed data and METOP SST data as cloud masks. 
+
